@@ -4,6 +4,6 @@ cliente = {
     genero: 'Feminino'
  }
 
- cliente.cidade = "Pernambuco";
+ cliente.estado = "Pernambuco";
 
- console.log(cliente);
+ console.log('Olá, meu nome é ' + cliente.nome + ' e moro no estado de ' + cliente.estado + '.');
